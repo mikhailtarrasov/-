@@ -1,0 +1,18 @@
+E:\Brezenhema\Brezenhema\bin\Debug\Brezenhema.exe.config
+E:\Brezenhema\Brezenhema\bin\Debug\Brezenhema.exe
+E:\Brezenhema\Brezenhema\bin\Debug\Brezenhema.pdb
+E:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.csprojResolveAssemblyReference.cache
+E:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.Form1.resources
+E:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.Properties.Resources.resources
+E:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.csproj.GenerateResource.Cache
+E:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.exe
+E:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.pdb
+J:\Brezenhema\Brezenhema\bin\Debug\Brezenhema.exe.config
+J:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.exe
+J:\Brezenhema\Brezenhema\obj\Debug\Brezenhema.pdb
+D:\Мои документы\YandexDisk\1. Учёба\1. ЧелГУ\8 семестр\Инженерная и компьютерная графика\Алгоритмы построения линии\Brezenhema\bin\Debug\Brezenhema.exe.config
+D:\Мои документы\YandexDisk\1. Учёба\1. ЧелГУ\8 семестр\Инженерная и компьютерная графика\Алгоритмы построения линии\Brezenhema\obj\Debug\Brezenhema.exe
+D:\Мои документы\YandexDisk\1. Учёба\1. ЧелГУ\8 семестр\Инженерная и компьютерная графика\Алгоритмы построения линии\Brezenhema\obj\Debug\Brezenhema.pdb
+C:\Users\Михаил\Source\Repos\Engineering-and-computer-graphics\Алгоритмы построения линии\Brezenhema\bin\Debug\Brezenhema.exe.config
+C:\Users\Михаил\Source\Repos\Engineering-and-computer-graphics\Алгоритмы построения линии\Brezenhema\obj\Debug\Brezenhema.exe
+C:\Users\Михаил\Source\Repos\Engineering-and-computer-graphics\Алгоритмы построения линии\Brezenhema\obj\Debug\Brezenhema.pdb
