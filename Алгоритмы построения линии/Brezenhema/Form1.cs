@@ -43,6 +43,35 @@ namespace Brezenhema
                 PutPixel(g, clr, x, y, 255);
             }
         }
+
+        static public void DdaLine(Graphics g, Color clr, int x0, int y0, int x1, int y1)
+        {
+            int PikselSayisi;
+
+            int dx, dy;
+            float x, xFark;
+            float y, yFark;
+
+            dx = x1 - x0;
+            dy = y1 - y0;
+
+            PikselSayisi = Math.Abs(dx) > Math.Abs(dy) ? Math.Abs(dx) : Math.Abs(dy);
+
+            xFark = (float)dx / (float)PikselSayisi;
+            yFark = (float)dy / (float)PikselSayisi;
+
+            x = (float)x0;
+            y = (float)y0;
+
+            while (PikselSayisi!=0)
+            {
+                PutPixel(g, clr, (int)Math.Floor(x + 0.5F), (int)Math.Floor(y + 0.5f), 255);
+                x += xFark;
+                y += yFark;
+                PikselSayisi--;
+            }
+        }
+
         private static void PutPixel(Graphics g, Color clr, int x, int y, int alpha)
         {
             g.FillRectangle(new SolidBrush(Color.FromArgb(alpha, clr)), x, y, 1, 1);
@@ -53,23 +82,23 @@ namespace Brezenhema
             try
             {
                 var x0 = Int32.Parse(X0.Text);
-                var x1 = Int32.Parse(X1.Text);
                 var y0 = Int32.Parse(Y0.Text);
-                var y1 = Int32.Parse(Y1.Text);
+
+                MouseEventArgs mouseEventArgs = (MouseEventArgs)e;
+
+                var x1 = mouseEventArgs.X;
+                var y1 = mouseEventArgs.Y;
 
                 Graphics g = pictureBox1.CreateGraphics();
-                Bresenham4Line(g, Color.Black, x0, y0, x1, y1);
+                if (Brez.Checked)
+                    Bresenham4Line(g, Color.DeepPink, x0, y0, x1, y1);
+                else DdaLine(g, Color.DeepSkyBlue, x0, y0, x1, y1);
             }
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
             
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

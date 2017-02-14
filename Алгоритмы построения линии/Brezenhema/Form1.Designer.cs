@@ -39,8 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.Brez = new System.Windows.Forms.RadioButton();
+            this.DDA = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,35 +135,35 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Y";
             // 
-            // radioButton1
+            // Brez
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(312, 153);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(81, 17);
-            this.radioButton1.TabIndex = 11;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Брезенхэм";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Brez.AutoSize = true;
+            this.Brez.Location = new System.Drawing.Point(312, 153);
+            this.Brez.Name = "Brez";
+            this.Brez.Size = new System.Drawing.Size(81, 17);
+            this.Brez.TabIndex = 11;
+            this.Brez.TabStop = true;
+            this.Brez.Text = "Брезенхэм";
+            this.Brez.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // DDA
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(312, 176);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(67, 17);
-            this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "DDA line";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.DDA.AutoSize = true;
+            this.DDA.Location = new System.Drawing.Point(312, 176);
+            this.DDA.Name = "DDA";
+            this.DDA.Size = new System.Drawing.Size(67, 17);
+            this.DDA.TabIndex = 12;
+            this.DDA.TabStop = true;
+            this.DDA.Text = "DDA line";
+            this.DDA.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 280);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.DDA);
+            this.Controls.Add(this.Brez);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -196,8 +196,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton Brez;
+        private System.Windows.Forms.RadioButton DDA;
     }
 }
 
